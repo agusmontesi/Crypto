@@ -1,0 +1,25 @@
+.CoinsContainer{
+    background-color: #DA0037;
+    display: flex;
+    flex-direction: row;
+}
+
+.imgCoins{
+    width: 50px;
+}
+.ulContainer{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.imgContainer{
+    margin-right: 10px;
+}
+.infoContainer{
+    margin-left: 20px;
+}
+.contain{
+    list-style: none;
+}

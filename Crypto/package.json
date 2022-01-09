@@ -4,8 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.19.1",
+    "coingecko-api": "^1.0.10",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  }
 }

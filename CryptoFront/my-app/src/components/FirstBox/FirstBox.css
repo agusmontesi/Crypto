@@ -1,28 +1,62 @@
 .FirstBoxContainer{
+    background-image: url("../FirstBox/fondoBlanco.png");
     width: 100%;
-    height: 600px;
+    height: 100%;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content:center;
     align-items: center;
     
-    background-color: #444444;
+    background-color: rgb(251, 242, 253);
 }
 .trendingContainer{
     align-self: center;
     justify-self: center;
 }
 .bannerContainer{
-    color: white;
-
+    color: black;
     margin-left: 30px;
     display: flex;
-    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
     align-self: flex-start;
+    align-content:space-between;
 
-    width: 50%;
+    width: 100%;
 }
 .banner{
-    font-size: 70px;
+    font-size: 60px;
 }
+.bannerSubtitle{
+    margin-top: -20px;
+    color: white(237, 237, 237);
+}
+.btnBanner{
+    margin-top: 20px;
+    width: 150px;
+    background-color: #5841d8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+}
+
+  .btnBanner:hover {
+    background-color: #4CAF50; 
+    color: white;
+  }
+  .imgCrypto{
+      width: 230px; 
+      margin-top: 40px;
+      margin-right: 200px;
+  }
+  .leftBoxContainer{
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+  }

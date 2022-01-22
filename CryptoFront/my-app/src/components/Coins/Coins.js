@@ -1,4 +1,4 @@
-import { useEffect,  } from "react"
+import { useEffect } from "react"
 import { useDispatch, useSelector} from "react-redux"
 import { getCoins } from "../../Actions/actions";
 import "./Coins.css"
@@ -6,12 +6,12 @@ import "./Coins.css"
 
 const Coins = () => {
     const dispatch = useDispatch();
-    const coins = useSelector(coins => coins.coins)
-    const dislplayCoins = coins.slice(0,5)
+    const coins = useSelector(data => data.coins); 
+    const dislplayCoins = coins.slice(0,5); 
     
     useEffect(() => {
         dispatch(getCoins())
-    }, [dispatch])
+    }, [dispatch]); 
     
     return (
         <div className="CoinsContainer">

@@ -1,13 +1,17 @@
 .CoinsContainer{
-    background-color: #DA0037;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: row;
+    align-self: start;
+
+    background-color: #5841d8;
 }
 
 .imgCoins{
     width: 50px;
 }
 .ulContainer{
+    color:white;
     margin: 20px;
     display: flex;
     flex-direction: row;

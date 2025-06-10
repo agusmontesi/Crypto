@@ -12,6 +12,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 
 app.use("/", require("./src/home"))
+app.use("/report", require("./src/report"))
 
 app.listen(PORT, () => {
    console.log(`Server is listening in port: ${PORT}`) 
